@@ -1,0 +1,31 @@
+<div class="container">
+<div class="split left">
+    <div class="centered">
+        <img src="https://media.istockphoto.com/id/1220627789/vector/feather-pen-icon-flat-vector-template-design-trendy.jpg?s=612x612&w=0&k=20&c=PJ7Ty_exvmBRhYmrt-02rB5TCrL2dLw0kB6e2E_8JtA=" >
+        <h4>BACKGROUND</h4>
+        <p>VECTOR DESIGN</p>
+        </div>
+    <div class="v"> </div>
+    <div class="split right">
+        <div class="centered">
+            <form [formGroup]="loginForm" (ngSubmit)="onFormSubmit()">
+                <nav>  
+                   <div class = "form-group">
+                     <input type ="userName" placeholder="Username" class="form-control" formControlName="Username"/>
+                   </div>
+                   <div class="password">
+                     <input type ="password" placeholder="password" class="form-control" formControlName="password"/>
+                   
+                   </div>
+                   <div class="Remember">
+                       <input type="checkbox" placeholder="Remember me" >
+                       <label>Remember Me</label>
+                       <img src="https://www.shutterstock.com/image-vector/envelope-icon-vector-260nw-768672523.jpg" >
+                       <label>Forget Password</label>
+                     </div><br>
+                   <button class="btn">Login</button>
+                </nav>  
+            </form>
+        </div>
+      </div>
+</div></div>

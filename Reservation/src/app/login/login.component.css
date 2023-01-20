@@ -1,0 +1,42 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: rgb(89, 83, 152);
+    /* background-image: url("https://as2.ftcdn.net/v2/jpg/03/98/39/69/1000_F_398396995_FF2Y8YttChqcbYEv9SFydHA2w7OphMfm.jpg"); */
+  }
+  .left {
+    left: 0;
+ 
+  }
+  .v{
+   
+    border-left: 2px solid white;
+    height:  400px;
+  }
+  .right {
+    right: 0;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .centered img {
+    width: 50px;
+    border-radius: 50%;
+  }
+
+.centered head{
+    width: 5px;
+}
+.btn{
+    background-color: rgb(106, 106, 239);
+    
+}
